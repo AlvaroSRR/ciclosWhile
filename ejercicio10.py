@@ -1,15 +1,5 @@
 # carga de cantidad de dias
 periodo= int(input("ingrese cantidad de dias: "))
-
-"""# carga de primer dato de temperaturas
-tempMin = float(input("temperatura minima: "))
-tempMax = float(input("temperatura maxima: "))
-# asigno el primer valor a la variables que pide
-minima = tempMin
-maxMin = tempMin
-minMax = tempMax
-maxima = tempMax
-"""
 #creo la variable auxiliar "i" y la seteo en 0
 i=0
 #ciclo while para cargar las temperaturas
@@ -39,6 +29,6 @@ while i < periodo:
         i = i + 1
 #imprimo los resultados
 print(f"temperatura minima :{minima}º")
-print(f"temperatura minima mas alta :{minMax}º")
+print(f"temperatura minima mas alta :{maxMin}º")
 print(f"temperatura maxima :{maxima}º")
-print(f"temperatura Maxima mas baja:{maxMin}º")
+print(f"temperatura Maxima mas baja:{minMax}º")
